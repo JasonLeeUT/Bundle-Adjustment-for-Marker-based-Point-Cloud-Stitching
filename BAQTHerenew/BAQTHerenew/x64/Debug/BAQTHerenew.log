@@ -1,0 +1,173 @@
+﻿  TransformationCalculation.cpp
+  main.cpp
+TransformationCalculation.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+d:\vsproject\ba\baqtherenew\baqtherenew\TransformationCalculation.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\opencv\include\opencv2/core/mat.hpp(1926): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\opencv\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+d:\vsproject\ba\baqtherenew\baqtherenew\TransformationCalculation.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\opencv\include\opencv2/core/mat.hpp(1926): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\opencv\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\opencv\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\opencv\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\opencv\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\opencv\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\opencv\include\opencv2/imgproc.hpp(617): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\opencv\include\opencv2/imgproc.hpp(617): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/point_traits.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/point_traits.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/sample_consensus/ransac.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/sample_consensus/ransac.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/sample_consensus/sac_model_registration.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/sample_consensus/sac_model_registration.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/sample_consensus/sac_model_registration.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/sample_consensus/sac_model_registration.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1585): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file TransformationCalculation.cpp)
+C:\3rdlibs\pcl\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1585): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\ceres\include\ceres/types.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\ceres\include\ceres/gradient_problem_solver.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+C:\3rdlibs\ceres\include\ceres/solver.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+TransformationCalculation.cpp(440): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): warning C4996: 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate': Call to 'std::uninitialized_copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (compiling source file TransformationCalculation.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): note: see declaration of 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate' (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt *std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ] (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(54): note: see reference to class template instantiation 'boost::arg<9>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(53): note: see reference to class template instantiation 'boost::arg<8>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(52): note: see reference to class template instantiation 'boost::arg<7>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(51): note: see reference to class template instantiation 'boost::arg<6>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(50): note: see reference to class template instantiation 'boost::arg<5>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(49): note: see reference to class template instantiation 'boost::arg<4>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(48): note: see reference to class template instantiation 'boost::arg<3>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(47): note: see reference to class template instantiation 'boost::arg<2>' being compiled (compiling source file TransformationCalculation.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(46): note: see reference to class template instantiation 'boost::arg<1>' being compiled (compiling source file TransformationCalculation.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): warning C4996: 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate': Call to 'std::uninitialized_copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (compiling source file main.cpp)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): note: see declaration of 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate' (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt *std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ] (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(54): note: see reference to class template instantiation 'boost::arg<9>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(53): note: see reference to class template instantiation 'boost::arg<8>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(52): note: see reference to class template instantiation 'boost::arg<7>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(51): note: see reference to class template instantiation 'boost::arg<6>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(50): note: see reference to class template instantiation 'boost::arg<5>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(49): note: see reference to class template instantiation 'boost::arg<4>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(48): note: see reference to class template instantiation 'boost::arg<3>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(47): note: see reference to class template instantiation 'boost::arg<2>' being compiled (compiling source file main.cpp)
+  C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64\boost/bind/placeholders.hpp(46): note: see reference to class template instantiation 'boost::arg<1>' being compiled (compiling source file main.cpp)
+  BAQTHerenew.vcxproj -> D:\VSProject\BA\BAQTHerenew\x64\Debug\BAQTHerenew.exe
+  BAQTHerenew.vcxproj -> D:\VSProject\BA\BAQTHerenew\x64\Debug\BAQTHerenew.pdb (Full PDB)

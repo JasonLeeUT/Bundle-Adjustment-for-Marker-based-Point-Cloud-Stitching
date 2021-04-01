@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>QtVS_v301</Keyword>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IncludePath>C:\3rdlibs\pcl\include\pcl-1.8;C:\3rdlibs\pcl\3rdParty\Boost\include\boost-1_64;C:\3rdlibs\pcl\3rdParty\Eigen\eigen3;C:\3rdlibs\pcl\3rdParty\FLANN\include;C:\3rdlibs\pcl\3rdParty\Qhull\include;C:\3rdlibs\pcl\3rdParty\VTK\include\vtk-8.0;C:\3rdlibs\pcl\3rdParty\OpenNI2\Include;C:\3rdlibs\opencv\include;C:\3rdlibs\opencv\include\opencv;C:\3rdlibs\opencv\include\opencv2;C:\3rdlibs\ceres\include\ceres;C:\3rdlibs\gflags\include;C:\3rdlibs\gflags\include\gflags;C:\3rdlibs\google-glog\include;C:\3rdlibs\eigen;C:\3rdlibs\suitesparse\include;C:\3rdlibs\ceres\include;C:\3rdlibs\tbb\include;C:\3rdlibs\structure_light\reconstruction\include;C:\3rdlibs\structure_light\camera\include;C:\3rdlibs\structure_light\config\include;C:\3rdlibs\structure_light\ellipsedetection\include;C:\3rdlibs\structure_light\featuredetection\include;C:\3rdlibs\structure_light\phaseunwrapping\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\3rdlibs\pcl\lib;C:\3rdlibs\pcl\3rdParty\Boost\lib;C:\3rdlibs\pcl\3rdParty\FLANN\lib;C:\3rdlibs\pcl\3rdParty\Qhull\lib;C:\3rdlibs\pcl\3rdParty\VTK\lib;C:\3rdlibs\pcl\3rdParty\OpenNI2\Lib;C:\3rdlibs\opencv\x64\vc14\lib;C:\3rdlibs\gflags\lib;C:\3rdlibs\ceres\lib;C:\3rdlibs\suitesparse\lib64\lapack_blas_windows;C:\3rdlibs\google-glog\lib;C:\3rdlibs\suitesparse\lib64;C:\3rdlibs\tbb\lib\intel64\vc14;C:\3rdlibs\structure_light\reconstruction\lib;C:\3rdlibs\structure_light\camera\lib;C:\3rdlibs\structure_light\config\lib;C:\3rdlibs\structure_light\ellipsedetection\lib;C:\3rdlibs\structure_light\featuredetection\lib;C:\3rdlibs\structure_light\phaseunwrapping\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>msvc2015_64</QtInstall>
+    <QtModules>core</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>msvc2015_64</QtInstall>
+    <QtModules>core</QtModules>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>camera.lib;config.lib;ellipsedetection.lib;featuredetection.lib;phaseunwrapping.lib;reconstruction.lib;opengl32.lib;glu32.lib;C:\3rdlibs\ceres\lib\ceres-debug.lib;C:\3rdlibs\google-glog\lib\glog.lib;OpenNI2.lib;gflags.lib;gflags_debug.lib;gflags_nothreads.lib;gflags_nothreads_debug.lib;pcl_common_debug.lib;pcl_features_debug.lib;pcl_filters_debug.lib;pcl_io_debug.lib;pcl_io_ply_debug.lib;pcl_kdtree_debug.lib;pcl_keypoints_debug.lib;pcl_ml_debug.lib;pcl_octree_debug.lib;pcl_outofcore_debug.lib;pcl_people_debug.lib;pcl_recognition_debug.lib;pcl_registration_debug.lib;pcl_sample_consensus_debug.lib;pcl_search_debug.lib;pcl_segmentation_debug.lib;pcl_stereo_debug.lib;pcl_surface_debug.lib;pcl_tracking_debug.lib;pcl_visualization_debug.lib;libboost_atomic-vc140-mt-gd-1_64.lib;libboost_bzip2-vc140-mt-gd-1_64.lib;libboost_chrono-vc140-mt-gd-1_64.lib;libboost_container-vc140-mt-gd-1_64.lib;libboost_context-vc140-mt-gd-1_64.lib;libboost_coroutine-vc140-mt-gd-1_64.lib;libboost_date_time-vc140-mt-gd-1_64.lib;libboost_exception-vc140-mt-gd-1_64.lib;libboost_fiber-vc140-mt-gd-1_64.lib;libboost_filesystem-vc140-mt-gd-1_64.lib;libboost_graph-vc140-mt-gd-1_64.lib;libboost_graph_parallel-vc140-mt-gd-1_64.lib;libboost_iostreams-vc140-mt-gd-1_64.lib;libboost_locale-vc140-mt-gd-1_64.lib;libboost_log-vc140-mt-gd-1_64.lib;libboost_log_setup-vc140-mt-gd-1_64.lib;libboost_math_c99-vc140-mt-gd-1_64.lib;libboost_math_c99f-vc140-mt-gd-1_64.lib;libboost_math_c99l-vc140-mt-gd-1_64.lib;libboost_math_tr1-vc140-mt-gd-1_64.lib;libboost_math_tr1f-vc140-mt-gd-1_64.lib;libboost_math_tr1l-vc140-mt-gd-1_64.lib;libboost_mpi-vc140-mt-gd-1_64.lib;libboost_numpy-vc140-mt-gd-1_64.lib;libboost_numpy3-vc140-mt-gd-1_64.lib;libboost_prg_exec_monitor-vc140-mt-gd-1_64.lib;libboost_program_options-vc140-mt-gd-1_64.lib;libboost_python-vc140-mt-gd-1_64.lib;libboost_python3-vc140-mt-gd-1_64.lib;libboost_random-vc140-mt-gd-1_64.lib;libboost_regex-vc140-mt-gd-1_64.lib;libboost_serialization-vc140-mt-gd-1_64.lib;libboost_signals-vc140-mt-gd-1_64.lib;libboost_system-vc140-mt-gd-1_64.lib;libboost_test_exec_monitor-vc140-mt-gd-1_64.lib;libboost_thread-vc140-mt-gd-1_64.lib;libboost_timer-vc140-mt-gd-1_64.lib;libboost_type_erasure-vc140-mt-gd-1_64.lib;libboost_unit_test_framework-vc140-mt-gd-1_64.lib;libboost_wave-vc140-mt-gd-1_64.lib;libboost_wserialization-vc140-mt-gd-1_64.lib;libboost_zlib-vc140-mt-gd-1_64.lib;flann-gd.lib;flann_cpp_s-gd.lib;flann_s-gd.lib;flann_cpp-gd.lib;qhullcpp_d.lib;qhullstatic_d.lib;qhullstatic_r_d.lib;qhull_d.lib;qhull_p_d.lib;qhull_r_d.lib;vtkalglib-8.0-gd.lib;vtkChartsCore-8.0-gd.lib;vtkCommonColor-8.0-gd.lib;vtkCommonComputationalGeometry-8.0-gd.lib;vtkCommonCore-8.0-gd.lib;vtkCommonDataModel-8.0-gd.lib;vtkCommonExecutionModel-8.0-gd.lib;vtkCommonMath-8.0-gd.lib;vtkCommonMisc-8.0-gd.lib;vtkCommonSystem-8.0-gd.lib;vtkCommonTransforms-8.0-gd.lib;vtkDICOMParser-8.0-gd.lib;vtkDomainsChemistry-8.0-gd.lib;vtkexoIIc-8.0-gd.lib;vtkexpat-8.0-gd.lib;vtkFiltersAMR-8.0-gd.lib;vtkFiltersCore-8.0-gd.lib;vtkFiltersExtraction-8.0-gd.lib;vtkFiltersFlowPaths-8.0-gd.lib;vtkFiltersGeneral-8.0-gd.lib;vtkFiltersGeneric-8.0-gd.lib;vtkFiltersGeometry-8.0-gd.lib;vtkFiltersHybrid-8.0-gd.lib;vtkFiltersHyperTree-8.0-gd.lib;vtkFiltersImaging-8.0-gd.lib;vtkFiltersModeling-8.0-gd.lib;vtkFiltersParallel-8.0-gd.lib;vtkFiltersParallelImaging-8.0-gd.lib;vtkFiltersPoints-8.0-gd.lib;vtkFiltersProgrammable-8.0-gd.lib;vtkFiltersSelection-8.0-gd.lib;vtkFiltersSMP-8.0-gd.lib;vtkFiltersSources-8.0-gd.lib;vtkFiltersStatistics-8.0-gd.lib;vtkFiltersTexture-8.0-gd.lib;vtkFiltersTopology-8.0-gd.lib;vtkFiltersVerdict-8.0-gd.lib;vtkfreetype-8.0-gd.lib;vtkGeovisCore-8.0-gd.lib;vtkgl2ps-8.0-gd.lib;vtkGUISupportQt-8.0-gd.lib;vtkGUISupportQtOpenGL-8.0-gd.lib;vtkGUISupportQtSQL-8.0-gd.lib;vtkhdf5-8.0-gd.lib;vtkhdf5_hl-8.0-gd.lib;vtkImagingColor-8.0-gd.lib;vtkImagingCore-8.0-gd.lib;vtkImagingFourier-8.0-gd.lib;vtkImagingGeneral-8.0-gd.lib;vtkImagingHybrid-8.0-gd.lib;vtkImagingMath-8.0-gd.lib;vtkImagingMorphological-8.0-gd.lib;vtkImagingSources-8.0-gd.lib;vtkImagingStatistics-8.0-gd.lib;vtkImagingStencil-8.0-gd.lib;vtkInfovisCore-8.0-gd.lib;vtkInfovisLayout-8.0-gd.lib;vtkInteractionImage-8.0-gd.lib;vtkInteractionStyle-8.0-gd.lib;vtkInteractionWidgets-8.0-gd.lib;vtkIOAMR-8.0-gd.lib;vtkIOCore-8.0-gd.lib;vtkIOEnSight-8.0-gd.lib;vtkIOExodus-8.0-gd.lib;vtkIOExport-8.0-gd.lib;vtkIOExportOpenGL-8.0-gd.lib;vtkIOGeometry-8.0-gd.lib;vtkIOImage-8.0-gd.lib;vtkIOImport-8.0-gd.lib;vtkIOInfovis-8.0-gd.lib;vtkIOLegacy-8.0-gd.lib;vtkIOLSDyna-8.0-gd.lib;vtkIOMINC-8.0-gd.lib;vtkIOMovie-8.0-gd.lib;vtkIONetCDF-8.0-gd.lib;vtkIOParallel-8.0-gd.lib;vtkIOParallelXML-8.0-gd.lib;vtkIOPLY-8.0-gd.lib;vtkIOSQL-8.0-gd.lib;vtkIOTecplotTable-8.0-gd.lib;vtkIOVideo-8.0-gd.lib;vtkIOXML-8.0-gd.lib;vtkIOXMLParser-8.0-gd.lib;vtkjpeg-8.0-gd.lib;vtkjsoncpp-8.0-gd.lib;vtklibharu-8.0-gd.lib;vtklibxml2-8.0-gd.lib;vtklz4-8.0-gd.lib;vtkmetaio-8.0-gd.lib;vtkNetCDF-8.0-gd.lib;vtkoggtheora-8.0-gd.lib;vtkParallelCore-8.0-gd.lib;vtkpng-8.0-gd.lib;vtkproj4-8.0-gd.lib;vtkRenderingAnnotation-8.0-gd.lib;vtkRenderingContext2D-8.0-gd.lib;vtkRenderingContextOpenGL-8.0-gd.lib;vtkRenderingCore-8.0-gd.lib;vtkRenderingFreeType-8.0-gd.lib;vtkRenderingGL2PS-8.0-gd.lib;vtkRenderingImage-8.0-gd.lib;vtkRenderingLabel-8.0-gd.lib;vtkRenderingLIC-8.0-gd.lib;vtkRenderingLOD-8.0-gd.lib;vtkRenderingOpenGL-8.0-gd.lib;vtkRenderingQt-8.0-gd.lib;vtkRenderingVolume-8.0-gd.lib;vtkRenderingVolumeOpenGL-8.0-gd.lib;vtksqlite-8.0-gd.lib;vtksys-8.0-gd.lib;vtktiff-8.0-gd.lib;vtkverdict-8.0-gd.lib;vtkViewsContext2D-8.0-gd.lib;vtkViewsCore-8.0-gd.lib;vtkViewsInfovis-8.0-gd.lib;vtkViewsQt-8.0-gd.lib;vtkzlib-8.0-gd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="CBA\BALProblem.cpp" />
+    <ClCompile Include="CBA\ceresBA.cpp" />
+    <ClCompile Include="CBA\command_args.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="ellipsedetection.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyCloud.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TransformationCalculation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="CBA\BALProblem.h" />
+    <ClInclude Include="CBA\BundleParams.h" />
+    <ClInclude Include="CBA\ceresBA.h" />
+    <ClInclude Include="CBA\command_args.h" />
+    <ClInclude Include="CBA\lines.h" />
+    <ClInclude Include="CBA\projection.h" />
+    <ClInclude Include="CBA\random.h" />
+    <ClInclude Include="CBA\ReprojectionError.h" />
+    <ClInclude Include="CBA\rotation.h" />
+    <ClInclude Include="common_include.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="ellipsedetection.h" />
+    <ClInclude Include="MyCloud.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TransformationCalculation.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
